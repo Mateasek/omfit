@@ -585,8 +585,10 @@
    "present": true,
    "type": "SOLPS",
    "SOLPS_format": "MDSplus",
-   "mds_server": "solps-mdsplus.aug.ipp.mpg.de:8001",
-   "mds_solps_reference": 121853,
+   "solps_reference": {
+    "mds_server": "solps-mdsplus.aug.ipp.mpg.de:8001",
+    "mds_solps_reference": 121853
+   },
    "Rrange": [
     0,
     2.0
